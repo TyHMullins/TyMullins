@@ -4,27 +4,18 @@
   <meta charset="utf-8" />
   <title>Redirecting…</title>
 
-  <!-- 0-second HTML redirect (works without JS) -->
+  <!-- Redirect immediately -->
   <meta http-equiv="refresh" content="0; url=https://www.linkedin.com/in/ty-mullins" />
 
-  <!-- Help crawlers treat this as the canonical destination -->
+  <!-- Help crawlers -->
   <link rel="canonical" href="https://www.linkedin.com/in/ty-mullins">
-
-  <!-- Optional: prevent this bridge page from being indexed -->
   <meta name="robots" content="noindex">
-
-  <!-- Optional: speed up redirect on modern browsers -->
-  <meta http-equiv="x-dns-prefetch-control" content="on">
-  <link rel="preconnect" href="https://www.linkedin.com">
-  <link rel="dns-prefetch" href="https://www.linkedin.com">
 </head>
 <body>
-  <noscript>
-    <p>Redirecting to <a href="https://www.linkedin.com/in/ty-mullins">my LinkedIn</a>…</p>
-  </noscript>
+  <p>Redirecting to <a href="https://www.linkedin.com/in/ty-mullins">my LinkedIn</a>…</p>
 
   <script>
-    // JS redirect (cleaner history than meta refresh)
     window.location.replace("https://www.linkedin.com/in/ty-mullins");
   </script>
 </body>
+</html>
